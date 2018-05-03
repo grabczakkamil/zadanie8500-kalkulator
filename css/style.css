@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+#main {
+    width: 350px;
+    height: 510px;
+    background-color: yellow;
+    position: relative;
+    
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    border-radius: 8%;
+    border-bottom-style: outset;
+}
+
+#delete {
+    width: 130px;
+    height: 50px;
+    background-color: cyan;
+}
+
+#zero {
+    width: 130px;
+    height: 50px;
+}
+
+#equal {
+    background-color: greenyellow;
+}
+
+#display {
+    position: absolute;
+    width: 290px;
+    height: 50px;
+    top: 30px;
+}
+
+.black {
+    background-color: black;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.row1 {
+    top: 110px;
+}
+.row2 {
+    top: 190px;
+}
+.row3 {
+    top: 270px;
+}
+.row4 {
+    top: 350px;
+}
+.row5 {
+    top: 430px;
+}
+
+.col1 {
+    left: 30px;
+}
+.col2 {
+    left: 110px;
+}
+.col3 {
+    left: 190px;
+}
+.col4 {
+    left: 270px;
+}
