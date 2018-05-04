@@ -8,27 +8,25 @@
 </head>
 <body>
     <div id="main">
-        <div id="display" class="grey col1"></div>
-        <button id="delete" class="row1 col1">Del</button>
-        <button class="black row4 col1">1</button>
-        <button class="black row4 col2">2</button>
-        <button class="black row4 col3">3</button>
-        <button class="black row3 col1">4</button>
-        <button class="black row3 col2">5</button>
-        <button class="black row3 col3">6</button>
-        <button class="black row2 col1">7</button>
-        <button class="black row2 col2">8</button>
-        <button class="black row2 col3">9</button>
-        <button class="black row5 col1" id="zero">0</button>
-        <button class="black row5 col3">.</button>
-        <button class="grey row1 col3">%</button>
-        <button class="grey row1 col4">+</button>
-        <button class="grey row2 col4">-</button>
-        <button class="grey row3 col4">*</button>
-        <button class="grey row4 col4">/</button>
-        <button id="equal" class="row5 col4">=</button>
-        
-
+        <input id="display" class="grey col1">
+        <button id="delete" class="row1 col1" onclick="clean()">Del</button>
+        <button class="black row4 col1" onclick="download(1)">1</button>
+        <button class="black row4 col2" onclick="download(2)">2</button>
+        <button class="black row4 col3" onclick="download(3)">3</button>
+        <button class="black row3 col1" onclick="download(4)">4</button>
+        <button class="black row3 col2" onclick="download(5)">5</button>
+        <button class="black row3 col3" onclick="download(6)">6</button>
+        <button class="black row2 col1" onclick="download(7)">7</button>
+        <button class="black row2 col2" onclick="download(8)">8</button>
+        <button class="black row2 col3" onclick="download(9)">9</button>
+        <button class="black row5 col1" id="zero" onclick="download(0)">0</button>
+        <button class="black row5 col3" onclick="download('.')">.</button>
+        <button class="grey row1 col3" onclick="download('*0.01')">%</button>
+        <button class="grey row1 col4" onclick="download('+')">+</button>
+        <button class="grey row2 col4" onclick="download('-')">-</button>
+        <button class="grey row3 col4" onclick="download('*')">*</button>
+        <button class="grey row4 col4" onclick="download('/')">/</button>
+        <button id="equal" class="row5 col4" onclick="calculate()">=</button>
     </div>
 </body>
 </html>
